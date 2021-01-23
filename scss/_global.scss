@@ -237,6 +237,7 @@ p.large {
 p.medium { 
     font-size: 1.25rem !important;
     line-height: 1.5;
+    text-align: center;
 
     @include breakpoint(large){ 
         font-size: 1.125rem;
@@ -254,7 +255,7 @@ p.small {
 
 .margin-bottom {    
     margin-bottom: 50px;  
-    line-height: 1.6; 
+    line-height: 1.6;
 }
 
 .lg-margin-bottom {
